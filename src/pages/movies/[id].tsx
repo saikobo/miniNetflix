@@ -20,6 +20,9 @@ export default function MovieDetails() {
         const movie = await omdbApiClient.findOneMovie(id as string)
         if(movie.data.Response == "False") {
             setError(movie.data.Error)
+            setTimeout(() => {
+                router.push('/404')
+            }, 2000)
             return;
         }
         setMovie(movie.data)
