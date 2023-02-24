@@ -48,7 +48,7 @@ export default function MovieDetails() {
                             {movie.Ratings.map(rating => <p key={rating.Source}><b>{rating.Source}</b>: {rating.Value}</p>)}
                         </div>
                     </div>
-                    <button onClick={() => router.back()}>Go Back</button>
+                    <button onClick={() => router.push('/')}>Go Back</button>
                 </div>
             </div>
         </div>
