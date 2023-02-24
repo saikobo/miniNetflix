@@ -13,10 +13,15 @@ export default function MovieDetails() {
     const dispatch = useDispatch()
     const router = useRouter()
     const [movie, setMovie] = useState<Movie | null>(null)
+    const [error, setError] = useState("")
     const { id } = router.query
 
     async function fetchData() {
         const movie = await omdbApiClient.findOneMovie(id as string)
+        if(movie.data.Response == "False") {
+            setError(movie.data.Error)
+            return;
+        }
         setMovie(movie.data)
         dispatch(addMovie(movie.data))
     }
@@ -32,7 +37,8 @@ export default function MovieDetails() {
         }
     }, [id])
 
-    if(!movie) return <div className={styles.spinner}></div>
+    if(error) return <div className="error">{error}</div>
+    if(!movie) return <div className="spinner"></div>
 
     return (
         <div className="container">
