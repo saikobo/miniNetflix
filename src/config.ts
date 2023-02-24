@@ -3,7 +3,7 @@ import OmdbApi from '@/api/OmdbApi'
 
 const config = {
     Api: {
-        baseUri: 'http://www.omdbapi.com',
+        baseUri: 'https://www.omdbapi.com',
         apiKey: '82491215',
     }
 }
