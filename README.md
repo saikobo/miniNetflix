@@ -1,9 +1,9 @@
 ## Mini Netflix
 This is a mini version of netflix which uses the [omdb](https://www.omdbapi.com/) api to fetch movies and to be able to view them.
 
-[](./readme-files/page1.png)
+![Movie List Page](./readme-files/page1.png)
 
-[Movie Detail Page](./readme-files/page2.png)
+![Movie Detail Page](./readme-files/page2.png)
 
 ## Technologies
 
