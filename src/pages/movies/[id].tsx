@@ -21,8 +21,8 @@ export default function MovieDetails() {
         if(movie.data.Response == "False") {
             setError(movie.data.Error)
             setTimeout(() => {
-                router.push('/404')
-            }, 2000)
+                router.push('/')
+            }, 3000)
             return;
         }
         setMovie(movie.data)
