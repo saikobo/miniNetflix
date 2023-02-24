@@ -1,4 +1,5 @@
 import axios from "axios"
+import OmdbApi from '@/api/OmdbApi'
 
 const config = {
     Api: {
@@ -13,5 +14,7 @@ export const axiosClient = axios.create({
         apikey: config.Api.apiKey,
     }
 })
+
+export const omdbApiClient = new OmdbApi()
 
 export default config

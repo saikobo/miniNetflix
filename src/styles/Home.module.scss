@@ -10,3 +10,39 @@
         padding: 0 40px;
     }
 }
+
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 50px;
+
+    @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    div {
+        height: 450px;
+        // width: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        h2 {
+            color: #fff;
+        }
+        img {
+            transition: all 100ms ease-in;
+            margin-bottom: 10px;
+        }
+        &:hover img {
+            transform: scale(1.05);
+        }
+    }
+}

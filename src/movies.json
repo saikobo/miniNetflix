@@ -1,0 +1,72 @@
+[
+    {
+        "imdbID":"tt0126029",
+        "Title": "Shrek",
+        "Plot": "When a green ogre named Shrek discovers his swamp has been 'swamped' with all sorts of fairytale creatures by the scheming Lord Farquaad, Shrek sets out with a very loud donkey by his side to 'persuade' Farquaad to give Shrek his swamp back. Instead, a deal is made. Farquaad, who wants to become the King, sends Shrek to rescue Princess Fiona, who is awaiting her true love in a tower guarded by a fire-breathing dragon. But once they head back with Fiona, it starts to become apparent that not only does Shrek, an ugly ogre, begin to fall in love with the lovely princess, but Fiona is also hiding a huge secret.",
+        "Ratings": [
+            {
+                "Source":"Internet Movie Database",
+                "Value":"7.9/10"
+            },
+            {
+                "Source":"Rotten Tomatoes",
+                "Value":"88%"
+            },
+            {
+                "Source":"Metacritic",
+                "Value":"84/100"
+            }
+        ],
+        "Poster":"https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    }, 
+    
+    {
+        "imdbID":"tt3107288",
+        "Title": "The Flash",
+        "Plot": "Barry Allen was struck by lightning and got in a coma for 9 months. After he awoke from his coma 9 months later, Barry met Cisco Ramon, Harrison Wells and Caitlin Snow. He later on realized that he has powers and how it had been caused by the explosion of the particle accelerator.",
+        "Ratings": [
+            {
+                "Source":"Internet Movie Database",
+                "Value":"7.6/10"
+            }
+        ],
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMDIzNzYwNTctZWY4Mi00YjQ2LWI5YWYtMzdmNDgwMGI4Yzk1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+    },
+
+    {
+        "Title":"Power Rangers",
+        "Plot":"High school outcasts stumble upon an old alien ship, where they acquire superpowers and are dubbed the Power Rangers. Learning that an old enemy of the previous generation has returned to exact vengeance, the group must harness their powers and use them to work together and save the world.",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTU1MTkxNzc5NF5BMl5BanBnXkFtZTgwOTM2Mzk3MTI@._V1_SX300.jpg",
+        "Ratings":[
+            {
+                "Source":"Internet Movie Database",
+                "Value":"5.9/10"
+            },
+            {
+                "Source":"Rotten Tomatoes",
+                "Value":"51%"
+            },
+            {
+                "Source":"Metacritic",
+                "Value":"44/100"
+            }
+        ],
+        "imdbID":"tt3717490"
+    },
+
+    {
+        "Title":"The Lord of the Rings: The Fellowship of the Ring",
+        "Plot":"An ancient Ring thought lost for centuries has been found, and through a strange twist of fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it. However, he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir, and his three Hobbit friends Merry, Pippin, and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign.",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+        "Ratings":[{"Source":"Internet Movie Database","Value":"8.8/10"},{"Source":"Rotten Tomatoes","Value":"91%"},{"Source":"Metacritic","Value":"92/100"}],
+        "imdbID":"tt0120737"
+    },
+
+    {
+        "Title":"Supa Strikas",
+        "Plot":"Packed with adventure, comedy and heart-stopping football action, Supa Strikas is a journey through the world of soccer like you have never seen before. From the snowy Himalayas to ancient Aztec ruins, beautiful Brazilian beaches to the dark reaches of outer space, Supa Strikas' quest for Super League glory takes them everywhere and anywhere you can imagine. But standing in their way is a host of skillful, conniving and downright wacky opposition - from a mad scientist to sky-diving Alpine marines. Supa Strikas will have to pull out all the stops if they want to bring the trophy home.",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BYTg3ZjllNmQtODcyNi00ZjU1LTkyMmItZjA0MzJjMzRjODJlXkEyXkFqcGdeQXVyMTAwMTYyNjE0._V1_SX300.jpg",
+        "Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"}],
+        "imdbID":"tt1945937"
+    }
+]
