@@ -9,7 +9,7 @@ export default function SingleMovie({movie}: Props) {
     return (
         <Link href={`/movies/${movie.imdbID}`}>
             <div className="movie">
-                <img src={movie.Poster} alt={"Movie Thumbnail"} style={{width: '100%', height: '85%'}} />
+                <img src={movie.Poster} alt={"Movie Thumbnail"} />
                 <h2>{movie.Title}</h2>
             </div>
         </Link>

@@ -47,7 +47,10 @@ export default function MovieDetails() {
         <div className="container">
             <h1 className={styles.title}>Movie Details</h1>
             <div className={styles.moviePosterSection}>
-                <Image src={movie.Poster} alt={"Movie Poster"} width={400} height={600} />
+                <Image src={movie.Poster} alt={"Movie Poster"} width={400} height={600} layout={'responsive'} style={{
+                    maxHeight: 700,
+                    maxWidth: 500,
+                }} />
                 <div className="details">
                     <div>
                         <h1>{movie.Title}</h1>

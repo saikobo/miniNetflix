@@ -3,6 +3,11 @@
     color: white;
     display: flex;
     gap: 20px;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
     h1 {
         margin-bottom: 15px;
     }
@@ -21,6 +26,10 @@
 
             &:active {
                 background-color: #adadad;
+            }
+
+            @include mobile {
+                margin-top: 40px;
             }
         }
     }
